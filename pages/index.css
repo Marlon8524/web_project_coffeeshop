@@ -178,58 +178,9 @@
   margin-bottom: 0px;
   margin: auto;
 }
-
-.card {
-  background-color: #ffff;
-  border-radius: 6px;
-  padding: 32px 40px 20px 32px;
-  box-sizing: border-box;
-  height: 420px;
-  width: 360px;
-}
-
-.card__content {
-}
-
 .footer {
   box-sizing: border-box;
   padding: 60px 80px 60px 80px;
   background-color: #1f1f1f;
   color: #ffff;
-}
-
-.footer__paragraphs {
-  display: flex;
-  color: #fff;
-}
-
-.footer__columns {
-  display: flex;
-  color: #fff;
-}
-
-.footer__column_content_hours {
-  color: #fff;
-  margin-left: auto;
-  margin-right: 80px;
-}
-
-.footer__column_content_social {
-  font-size: 16px;
-  text-align: center;
-  color: #fff;
-  margin-left: 80px;
-}
-
-.footer__logo {
-  display: inline-block;
-  width: 58px;
-  height: 80px;
-}
-
-.footer__copyright {
-  text-align: left;
-  color: #fff;
-  margin: 0;
-  margin-top: 100px;
 }

@@ -3,24 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="pages/index.css" />
-    <meta  name="description"  content="Portfolio de una cafeteria at Tripleten"   />
+    <meta
+      name="description"
+      content="Portfolio de una cafeteria at Tripleten"
+    />
     <meta name="keywords" content="cafe , latte, bebidas" />
     <meta name="author" content="Marlon" />
-    <link rel="shortcut icon" href="favicon.ico" />
+
+    <link rel="icon" href="favicon.ico" />
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
-
-
-<title>Cafeteria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <title>Cafeteria</title>
   </head>
   <body>
     <div class="page">
@@ -29,109 +44,136 @@
           <img
             src="./images/logo_coffeeshop_dark.svg"
             alt="Logotipo cafe expreso"
-            class="nav__logo"/>
+            class="nav__logo"
+          />
 
           <ul class="nav__links">
             <li>
               <a class="nav__link" href="#recipes">Recetas</a>
             </li>
-                
+
             <li>
-              <a class="nav__link" href="#reservations" >Reserva una mesa</a>
+              <a class="nav__link" href="#reservations">Reserva una mesa</a>
             </li>
-            <li><a class="nav__link" href="#contact">Contactos</a>
-            </li>
+            <li><a class="nav__link" href="#contact">Contactos</a></li>
           </ul>
         </nav>
 
         <div class="header__content">
           <div>
-            <h1 class="header__title"><span class ="highlight">¡Cafe de especialidad </span>en Tripe Peaks!
+            <h1 class="header__title">
+              <span class="highlight">¡Cafe de especialidad </span>en Tripe
+              Peaks!
             </h1>
             <p class="header__description">
-              !Te damos la bienveniodana nuestra zona de estudio. Aqui Tenemos cafe para darte energia y motivar tu creatividad.
-           </p>
+              !Te damos la bienveniodana nuestra zona de estudio. Aqui Tenemos
+              cafe para darte energia y motivar tu creatividad.
+            </p>
           </div>
-          <img src="./images/inside_coffee_shop.png"
+          <img
+            src="./images/inside_coffee_shop.png"
             alt="Ilustración 'Dentro de la cafeteria'"
             class="header__image"
           />
         </div>
         <div class="header__footer">
-                <div class="header__schechule">
-                <p>Horario</p>
-                 <p>Lunes a viernes(de 10:00h a 19:00h)<p>
-                 <p>Sábados y domingos(de 11:00h a 18:00h)<p>
-                </div>
-                  <div class="header__address">
-                    <p>Avenida del Exito 200, Ciudad Triple Peaks</p>
-               </div>
+          <div class="header__schechule">
+            <p>Horario</p>
+            <p>Lunes a viernes(de 10:00h a 19:00h)</p>
+            <p></p>
+            <p>Sábados y domingos(de 11:00h a 18:00h)</p>
+            <p></p>
+          </div>
+
+          <div class="header__address">
+            <p>Avenida del Exito 200, Ciudad Triple Peaks</p>
+          </div>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="recipes" id="recipes">
+          <h2 id="recetas" class="recipes__title">Recetas</h2>
+          <p class="recipes__subtitle">
+            Echa un vistazo a las recetas que hemos reunido para que elabores
+            tus propios snacks
+          </p>
+
+          <div class="recipes__videos" controls>
+            <div class="recipes__videos-item">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/st571DYYTR8?si=-X6tgH5tpE_lSDcp"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              >
+              </iframe>
+              <div class="recipes__video-caption">
+                <p>Receta en Aeroexpress</p>
+              </div>
             </div>
 
-      
-      <main class= "content">
-       <section class="recipes" id="recipes">
-          <h2  id="recetas" class="recipes__title">Recetas</h2>
-          <p class="recipes__subtitle">Echa un vistazo a las recetas que hemos reunido para que elabores tus propios snacks</p>
-         
-      <div class ="recipes__videos" controls>
-        <div class ="recipe__videos-item">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/st571DYYTR8?si=-X6tgH5tpE_lSDcp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-         <div class ="recipes__videos-caption">
-          <p>Receta en Aeroexpress</p>
-         </div>
-         
-         </div>
-
-        <div class ="recipes__videos-item">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/7h9mJjfoCk8?si=hRAoP0fUXo-4PGPm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          <div class ="recipes__videos-caption">
-              <p>Receta en cafetera francesa</p>
-          </div> 
-        </div>
-     </div>
-        </section>
-  
-        
-        <section class="reservation" id="reservation"> </section>
-        <section class="contact"></section>    
-                    ¡Reservar una mesa!
-              <form class="type">                      
-               </section>
-                      
-        </main>
-
-     <footer class="footer" id="footer">
-      <div class="footer__columns">
-       <div class="footer__column">
-         <img src="./images/logo_coffeeshop_light.svg" alt="Logotipo de coffeshops"
-           class="footer__logo" />
-           </div>
-                
-                       
-     <div class="footer__column footer__column_content_social">
-     <h3 class="footer__column-heading">Redes sociales</h3>
-      <ul class="footer__list">
-      
-        <li class="footer__list-item" id="facebook">
-         <a href="#" class="footer__column-link">
-            <img src="./images/facebook_white.svg"  alt="facebook logo"
-        class="footer__social-icon"/></a>
-                Facebook </li>
-
-        <li class="footer__list-item" id="Instagram">
-         <a href="#" class="footer__column-link">
-            <img  src="./images/instagram_white.svg"     alt="instagram logo"
-           class="footer__social-icon" /></a>
-           Instagram
-           </li>
-        </ul>
+            <div class="recipes__videos-item">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/7h9mJjfoCk8?si=hRAoP0fUXo-4PGPm"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <div class="recipes__video-caption">
+                <p>Receta en cafetera francesa</p>
+              </div>
+            </div>
           </div>
-     </div>
-                
+        </section>
+
+        <section class="reservation" id="reservation"></section>
+        <section class="contact">¡Reservar una mesa!</section>
+      </main>
+      <footer class="footer">
+        <div class="footer__columns">
+          <div class="footer__column">
+            <img
+              src="./images/logo_coffeeshop_light.svg"
+              alt="Logotipo de coffeshops"
+              class="footer__logo"
+            />
+          </div>
+          <div class="footer__column footer__column_content_social">
+            <h3 class="footer__column-heading">Redes sociales</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item" id="facebook">
+                <a href="#" class="footer__column-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="facebook logo"
+                    class="footer__social-icon"
+                /></a>
+                Facebook
+              </li>
+
+              <li class="footer__list-item" id="Instagram">
+                <a href="#" class="footer__column-link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="instagram logo"
+                    class="footer__social-icon"
+                /></a>
+                Instagram
+              </li>
+            </ul>
+          </div>
+        </div>
         <p class="footer__copyright">©2024 Marlon Gil</p>
-    </footer>
-    </header>
-      </div>
+      </footer>
+    </div>
   </body>
 </html>
